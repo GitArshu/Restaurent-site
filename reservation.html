@@ -1,0 +1,194 @@
+<!doctype> 
+
+
+<html>
+
+
+
+<head>     <title>  Reservation     </title>   
+
+
+
+
+
+</head>
+
+
+
+
+
+<style>
+
+.main {  position:relative; height:200vh; width:100%;  background:#F9F6F5; display:flex; flex-wrap:wrap; } 
+
+
+.boy1 { height:20vh; width:65vw; border:px solid #0a0908;  margin:auto; margin-top:0vh; color:0a0908; font-size:9vmax;  text-align:center;   }
+
+
+.boy2   { position:relative; height:60vh; width:40vw; background:#313131; margin:auto; margin-top:vh; border-radius:10px;; }
+
+.boy2 p {  color:white; font-size:1.5vmax; text-align:center; }
+
+.pic { text-align:center; margin-top:-2vh; }
+
+.line {  color:white; font-size:1.5vmax; margin:auto;  margin-top:8vh; }
+
+
+.box { height:13vh; width:12vw; background:#F9F6F5; margin:auto; border-radius: 10px 10px 0px 0px;  margin-top: 14vh; color:#313131; text-align:center; font-size:1.5vmax; }
+
+
+
+
+
+.line2   { height: 15vh; width:70vw; background:;  margin:auto; text-align:center; font-size:3vmax;  margin-top:20vh;      }
+
+span1 {     color:#a14005; font-size:3.5vmax;}
+
+
+
+
+.formbox
+{
+	position:relative; height: 60vh; width:80vw; background:#F9F6F5;border:1px solid #a14005;  border-radius:10px; margin:auto; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; margin-top:-5vh;  display:flex; align-items: center; justify-content:center;    }
+
+
+.left { height:60vh; width:40vw; background:; }
+
+
+input[type=text],input[type=password]{border-radius:5px;font-size:15px;color:#a4a4a4;border:1px #a14005 solid;width:20vw;height:50px;}
+
+input[type=date],input[type=password]{border-radius:5px;font-size:15px;color:#a4a4a4; border:1px #a14005 solid;width:10vw;height:30px;}
+
+input[type=time],input[type=password]{border-radius:5px;font-size:15px;color:#a4a4a4; border:1px #a14005 solid;width:10vw;height:30px;}
+
+input[type=number],input[type=password]{border-radius:5px;font-size:15px;color:#a4a4a4; border:1px #a14005 solid;width:10vw;height:50px;}
+
+
+
+
+
+
+
+.right {  height:60vh; width:40vw; background:;}
+
+input[type=submit]{width:10vw;height:5vh;border-radius:5px;color:#a14005;border:2px #a14005 solid; cursor:pointer;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
+<body>
+
+
+<div class="main"> 
+
+	<div class="boy1">  FOOD RESORT      </div>
+	
+	<div class="boy2">   <p> Reserve a Table </p>  
+
+<div class="pic" >  <img src="photos/chair4.png" >	</div>
+
+	  <hr/ color="white"  width="70%"  >    
+<div class="line"> Lunch  --  12 : 30     &nbsp    /    &nbsp   Dinner -- 19 : 30   &nbsp /   &nbsp   CLOSED on Monday     </div>
+
+<div class="box">  fill the Form Below. </div>
+
+
+ </div>
+
+<div class="line2">  Fill out the Form for making   <span1> RESERVATION       </span>                  </div>  
+
+
+
+
+
+
+
+
+<div class ="formbox">   <div class="left">
+
+<form action="http://tataplay/user/get.php" method="post">
+		<table border="0" cellpadding="10" class="fortable">
+
+
+
+
+<tr><td><label>Name</label></td> <td><input type="text" class="formcontent' pattern="[A-Za-z]{1,30}" placeholder="Type Name Here" required></td></tr>
+
+<tr><td><label>Date</label></td> <td><input type="date"></td></tr>
+
+<tr><td><label> Time</label></td> <td><input type="time"></td></tr>
+
+<tr><td><label>Guests</label></td> <td><input type="number" class="agebox" max="25" min="2" placeholder="select no. of guests">  </td></tr>
+
+<tr><td><label>Contact No. </label></td> <td><input type="text" class="content" pattern="{0,100}"placeholder="Mobile number">  </td></tr>
+
+<tr><td><label>E-mail</label></td> <td><input type="text" class="formcontent' pattern="[A-Za-z]{1,30}" placeholder="Enter your E - mail" required></td></tr>
+
+
+
+</table> 
+
+</form>
+
+
+  </div>                 
+
+
+ <div class="right">   
+
+<form action="http://tataplay/user/get.php" method="post">
+		<table border="0" cellpadding="10" class="fortable">
+
+
+<tr><td><label>Special Details </label></td> <td><textarea rows="10" cols="50%"></textarea></td></tr>
+
+
+<tr><td><input type="submit" value="Confirm Reservation"></td></tr>
+
+
+
+
+
+
+
+
+</table> 
+
+</form>
+
+ </div>
+
+
+</div>
+
+
+</body>
+
+
+
+
+
+
+
+
+</html>
